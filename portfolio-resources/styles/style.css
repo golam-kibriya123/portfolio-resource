@@ -106,7 +106,6 @@ nav ul li {
 main section style
    ======== */
 main {
-    height: 1000px;
     max-width: 1100px;
     margin: 90px auto 0 auto;
 }
@@ -126,29 +125,110 @@ main {
 
 }
 
+.container {
+    margin-top: 130px;
+    text-align: center;
+    padding: 130px 150px;
+    border-radius: 10px;
+
+}
+
 /* =========about======== */
 .about {
-    margin-top: 130px;
     background-color: #fff8f3;
-    border-radius: 10px;
-    padding: 130px 150px;
-    text-align: center;
-
 
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
-flex-direction: row;
-justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
 
-.about-info.info-title{
+.about-info.info-title {
     font-size: 20px;
     color: #757575;
 }
-.about-info .info-description{
+
+.about-info .info-description {
     color: #474747;
     font-weight: 700;
-    font-size: 20px;  
+    font-size: 20px;
+}
+
+/* ========= skill style === */
+.my-skils {
+    margin-top: 130px;
+    padding: 10px 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.all-skills {
+    text-align: start;
+    display: flex;
+    gap: 24px;
+}
+
+.skil {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    width: 267px;
+    height: 300px;
+    padding: 5px 0 0 5px;
+}
+
+.skil-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+.skil-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* my-resume */
+.my-resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 28px;
+    text-align: start;
+}
+
+.education,
+.experience {
+    border-bottom: 1px solid gray;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.resume-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    padding: 10px 0 20px 0;
+
+}
+.resume-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+
 }
